@@ -1,0 +1,570 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.26f1 (7298b473bc1a) revision 7510196'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22526) 64bit Core' Language: 'sr' Physical Memory: 16319 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/dev/AbstractMarkerAR
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51956
+Successfully changed project path to: D:/dev/AbstractMarkerAR
+D:/dev/AbstractMarkerAR
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 87.81 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 2.47 ms.
+Initialize engine version: 2020.3.26f1 (7298b473bc1a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/dev/AbstractMarkerAR/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1060 (ID=0x1c20)
+    Vendor:   
+    VRAM:     2987 MB
+    Driver:   30.0.14.7196
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002477 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 63.17 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.744 seconds
+Domain Reload Profiling:
+	ReloadAssembly (744ms)
+		BeginReloadAssembly (63ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (589ms)
+			LoadAssemblies (61ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (200ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (212ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (63ms)
+				BeforeProcessingInitializeOnLoad (17ms)
+				ProcessInitializeOnLoadAttributes (95ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.015465 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 60.97 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.420 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1421ms)
+		BeginReloadAssembly (184ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (1160ms)
+			LoadAssemblies (145ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (379ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (409ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (61ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (219ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 2311 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.1 MB.
+System memory in use after: 93.3 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 2751.
+Total: 4.209600 ms (FindLiveObjects: 0.227900 ms CreateObjectMapping: 0.122200 ms MarkObjects: 3.720100 ms  DeleteObjects: 0.138000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/ExampleAssets/Models/cube.fbx
+  artifactKey: Guid(de4da3906a001624fabcc7838ddf2eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models/cube.fbx using Guid(de4da3906a001624fabcc7838ddf2eb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a7aba2da529a6217d7554a22d981107') in 0.442166 seconds 
+  Import took 0.447055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/ExampleAssets/Models
+  artifactKey: Guid(262e742d15f1b4d1487c6709552f51e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Models using Guid(262e742d15f1b4d1487c6709552f51e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e65e5d6c68007fef076b1fd198078c') in 0.010492 seconds 
+  Import took 0.014726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.204639 seconds.
+  path: Assets/ExampleAssets/Prefabs/ARPlane.prefab
+  artifactKey: Guid(3738bd65ede154463b2c35064b9e5fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Prefabs/ARPlane.prefab using Guid(3738bd65ede154463b2c35064b9e5fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc56ff376f358a8b086b26d52175b899') in 0.061168 seconds 
+  Import took 0.065589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/ExampleAssets/Prefabs/CubeObject.prefab
+  artifactKey: Guid(fe573e7abb8af466791f07600c0785e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Prefabs/CubeObject.prefab using Guid(fe573e7abb8af466791f07600c0785e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '545bf35dbaa32ef23cddb0e6142dd564') in 0.040238 seconds 
+  Import took 0.044375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/ExampleAssets/Prefabs
+  artifactKey: Guid(652960599d8c4485a9ae38409999891a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Prefabs using Guid(652960599d8c4485a9ae38409999891a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b338d483a3128c1e51399f6d82a2aee') in 0.010125 seconds 
+  Import took 0.014102 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.332660 seconds.
+  path: Assets/ExampleAssets/Textures/PlanePatternDot.png
+  artifactKey: Guid(af6bcea09b8134831b6599e2900aef81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Textures/PlanePatternDot.png using Guid(af6bcea09b8134831b6599e2900aef81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac58afe2fbdf244d16af0a3c2d2a8fde') in 0.111954 seconds 
+  Import took 0.117356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.077052 seconds.
+  path: Assets/Wikitude/Dependencies/Resources/wikitude_logo.png
+  artifactKey: Guid(74a0a0a6d2db6476bb261298b6257ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Dependencies/Resources/wikitude_logo.png using Guid(74a0a0a6d2db6476bb261298b6257ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61178267f3751c26483660f8a60f732a') in 0.088728 seconds 
+  Import took 0.101559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.058984 seconds.
+  path: Assets/ExampleAssets/Tutorial/Images/1-welcome-screen-image.png
+  artifactKey: Guid(a36153625af524c1f9fb6e04b5ed3e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Tutorial/Images/1-welcome-screen-image.png using Guid(a36153625af524c1f9fb6e04b5ed3e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d97629b1437202ff8a120f60152e682') in 0.028421 seconds 
+  Import took 0.033338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000541 seconds.
+  path: Assets/ExampleAssets/Tutorial/Images/project-header-ar.png
+  artifactKey: Guid(36ba5f0e57d094b0c9364f801bc2bac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Tutorial/Images/project-header-ar.png using Guid(36ba5f0e57d094b0c9364f801bc2bac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e261f6b7eca4d0259ca41a32570feda9') in 0.026440 seconds 
+  Import took 0.030534 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000477 seconds.
+  path: Assets/ExampleAssets/Tutorial/Images
+  artifactKey: Guid(4169c8a7a0818423aa84fe774678e570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Tutorial/Images using Guid(4169c8a7a0818423aa84fe774678e570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea6af4d97ba1ac88f8b79ee68bf01511') in 0.010724 seconds 
+  Import took 0.015205 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.508732 seconds.
+  path: Assets/ExampleAssets/Materials/PlacedCubeMat.mat
+  artifactKey: Guid(0ce7ca15cd93341beb67396a494cef55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/PlacedCubeMat.mat using Guid(0ce7ca15cd93341beb67396a494cef55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43b9e294dc389259e6418debb7748f46') in 0.032316 seconds 
+  Import took 0.037004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/ExampleAssets/Materials/PlaneMat.mat
+  artifactKey: Guid(2da0ea038f25a4fa998f183878aedf79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExampleAssets/Materials/PlaneMat.mat using Guid(2da0ea038f25a4fa998f183878aedf79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6e582c62c28e4444f96ba4cb7793559') in 0.029746 seconds 
+  Import took 0.034444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.891272 seconds.
+  path: Assets/Plugins/Android
+  artifactKey: Guid(7500f54b0a15a438c8b696ab9a3e7e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Android using Guid(7500f54b0a15a438c8b696ab9a3e7e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1181a6fa137b3b58c521a5334a8a7f5') in 0.011071 seconds 
+  Import took 0.016542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.076821 seconds.
+  path: Assets/Plugins/Lumin/MagicLeapManifestSettings.asset
+  artifactKey: Guid(dd3d17bef5f974d19ae58a5a69c484fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Lumin/MagicLeapManifestSettings.asset using Guid(dd3d17bef5f974d19ae58a5a69c484fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c777b11067afc4d04046319d1b193f') in 0.022389 seconds 
+  Import took 0.027737 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.798603 seconds.
+  path: Assets/Wikitude/Samples/Models/Pipes.fbx
+  artifactKey: Guid(6a7e47ac37e054199989a31d0af43f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models/Pipes.fbx using Guid(6a7e47ac37e054199989a31d0af43f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dbf08ca7c6b4688359302437d5acdc1') in 0.091626 seconds 
+  Import took 0.106172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000454 seconds.
+  path: Assets/Wikitude/Samples/Models
+  artifactKey: Guid(8049d5875c9f14f36b8b969d0edc2abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models using Guid(8049d5875c9f14f36b8b969d0edc2abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3781431260fa0029decea310fa46c85a') in 0.004087 seconds 
+  Import took 0.009005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.400159 seconds.
+  path: Assets/Wikitude/Samples/Models/WikitudeEye.fbm/aug-textur_512x512.png
+  artifactKey: Guid(f3e1acf91e3bf49e3a859c5d9693cf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models/WikitudeEye.fbm/aug-textur_512x512.png using Guid(f3e1acf91e3bf49e3a859c5d9693cf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bca33ab7a4a1998841509c89f9dbce32') in 0.036710 seconds 
+  Import took 0.041610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000420 seconds.
+  path: Assets/Wikitude/Samples/Models/WikitudeEye.fbm
+  artifactKey: Guid(3e8a842a15c8b484abd134a289aa9b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models/WikitudeEye.fbm using Guid(3e8a842a15c8b484abd134a289aa9b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0e8b145bfc270e4b0123893f644ecf6') in 0.011741 seconds 
+  Import took 0.015759 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000417 seconds.
+  path: Assets/Wikitude/Samples/Models/WikitudeEye.fbm/ring-aussen_1024x1024.png
+  artifactKey: Guid(35f440853c4464133a4e1cacf2463612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models/WikitudeEye.fbm/ring-aussen_1024x1024.png using Guid(35f440853c4464133a4e1cacf2463612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed372300b2145553e05945f77c1e6f62') in 0.064571 seconds 
+  Import took 0.069958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/Wikitude/Samples/Models/WikitudeEye.fbm/ring-innen_1024x1024.png
+  artifactKey: Guid(d2971466367254418bf3cf6d20633c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models/WikitudeEye.fbm/ring-innen_1024x1024.png using Guid(d2971466367254418bf3cf6d20633c1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c41be1528cc60df66e7de1e89fca66') in 0.037671 seconds 
+  Import took 0.041958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/Wikitude/Samples/Models/WikitudeEye.fbm/ramp8-linse_neu.png
+  artifactKey: Guid(2697da6a1c71b4367a8bc10fc7b1a478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models/WikitudeEye.fbm/ramp8-linse_neu.png using Guid(2697da6a1c71b4367a8bc10fc7b1a478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e2956ce44f32f84170db4366426ffa') in 0.032671 seconds 
+  Import took 0.036541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Wikitude/Samples/Models/WikitudeEye.fbm/ramp10-linse_neu.png
+  artifactKey: Guid(cfce345364ff643609d48c85b3e721d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models/WikitudeEye.fbm/ramp10-linse_neu.png using Guid(cfce345364ff643609d48c85b3e721d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb6a0b308b82f67fc833b41548d3884') in 0.039838 seconds 
+  Import took 0.043522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Wikitude/Samples/Models/WikitudeEye.fbm/ramp7-linse_neu.png
+  artifactKey: Guid(844d93ea8e2234fae8a16379a9731b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models/WikitudeEye.fbm/ramp7-linse_neu.png using Guid(844d93ea8e2234fae8a16379a9731b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7322ff7fec36f8244a7c223bdbab9f84') in 0.032691 seconds 
+  Import took 0.036306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000423 seconds.
+  path: Assets/Wikitude/Samples/Models/WikitudeEye.fbm/ramp9-linse_neu.png
+  artifactKey: Guid(8fece3c8366d8490a8d388dd5040a797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models/WikitudeEye.fbm/ramp9-linse_neu.png using Guid(8fece3c8366d8490a8d388dd5040a797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8a9a519327a1a65778f9e2f8df2037') in 0.031250 seconds 
+  Import took 0.035028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.400281 seconds.
+  path: Assets/Wikitude/Samples/Models/Furniture/clock.fbx
+  artifactKey: Guid(28d8bb35b6a92794695f6949c40e3187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models/Furniture/clock.fbx using Guid(28d8bb35b6a92794695f6949c40e3187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f270566ca0f0cb797963ab5bec3a909') in 0.101687 seconds 
+  Import took 0.106822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Wikitude/Samples/Models/Furniture/trainer.fbx
+  artifactKey: Guid(2f06860e1dbbcbb46aa4387f03571614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models/Furniture/trainer.fbx using Guid(2f06860e1dbbcbb46aa4387f03571614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4c5ffd90c9cde056f91b31650afc59') in 0.127456 seconds 
+  Import took 0.131493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Wikitude/Samples/Models/Furniture/couch.fbx
+  artifactKey: Guid(ee107ddb8c0182545bf50b3669dede3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models/Furniture/couch.fbx using Guid(ee107ddb8c0182545bf50b3669dede3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e33efb81f4eacab7d71ad8c7c7a2c5') in 0.191646 seconds 
+  Import took 0.196294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000410 seconds.
+  path: Assets/Wikitude/Samples/Models/Furniture/table.fbx
+  artifactKey: Guid(41e4cd11671709044b9226d3bc393d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models/Furniture/table.fbx using Guid(41e4cd11671709044b9226d3bc393d13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36f68209a8f5570b6a6413f348ddb2a8') in 0.128113 seconds 
+  Import took 0.132591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Wikitude/Samples/Models/Furniture/officechair.fbx
+  artifactKey: Guid(77c80f623ebdfb843b84cbb90fafa3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models/Furniture/officechair.fbx using Guid(77c80f623ebdfb843b84cbb90fafa3aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f747839fdfd285369bea85f62d3fc7') in 0.073830 seconds 
+  Import took 0.077985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.575514 seconds.
+  path: Assets/Wikitude/Samples/Models/Firetruck/arrow.fbx
+  artifactKey: Guid(a7365f8c1a3a1414788c57a6c50eb2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models/Firetruck/arrow.fbx using Guid(a7365f8c1a3a1414788c57a6c50eb2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f6704141b80e4b17b790ae4bce6b2ef') in 0.305754 seconds 
+  Import took 0.331660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000475 seconds.
+  path: Assets/Wikitude/Samples/Models/Firetruck/firetruck.fbx
+  artifactKey: Guid(95319d2e67b3b4820a09d521ea6ea868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models/Firetruck/firetruck.fbx using Guid(95319d2e67b3b4820a09d521ea6ea868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755941ac2d991e683fff583fb112ea17') in 0.094714 seconds 
+  Import took 0.098786 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000535 seconds.
+  path: Assets/Wikitude/Samples/Models/Firetruck/light_sprite.fbx
+  artifactKey: Guid(6cbc161c8ba46430b9f2f4a7b80185e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models/Firetruck/light_sprite.fbx using Guid(6cbc161c8ba46430b9f2f4a7b80185e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9e9d3257ff6aee479c67be261dbedad') in 0.061169 seconds 
+  Import took 0.065170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000517 seconds.
+  path: Assets/Wikitude/Samples/Models/Firetruck/marker.fbx
+  artifactKey: Guid(9b16989a02c2a413392a61d18a282e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models/Firetruck/marker.fbx using Guid(9b16989a02c2a413392a61d18a282e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7724d8a856f07bedd09205c3fcdf4645') in 0.063504 seconds 
+  Import took 0.067864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000450 seconds.
+  path: Assets/Wikitude/Samples/Models/Firetruck/screw.fbx
+  artifactKey: Guid(c54e57f4f099e4b77a8d4445948bffe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models/Firetruck/screw.fbx using Guid(c54e57f4f099e4b77a8d4445948bffe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b261d91c7ef8f5082fb9b9e8af409892') in 0.126638 seconds 
+  Import took 0.141261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000522 seconds.
+  path: Assets/Wikitude/Samples/Models/Firetruck/firetruck_alignment.fbx
+  artifactKey: Guid(96f75815ec4774a35ab4f4df40dc229b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models/Firetruck/firetruck_alignment.fbx using Guid(96f75815ec4774a35ab4f4df40dc229b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4fd20ed79748b1a32e4b3151b8bc8e') in 0.101702 seconds 
+  Import took 0.106166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/Wikitude/Samples/Models/Firetruck/screwdriver.fbx
+  artifactKey: Guid(a2c8510d7e84245dcab4edcdd5356916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models/Firetruck/screwdriver.fbx using Guid(a2c8510d7e84245dcab4edcdd5356916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9d0bd0fe3912a1336f05d99720c547') in 0.089057 seconds 
+  Import took 0.093114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Wikitude/Samples/Models/Firetruck/traffic_cone.fbx
+  artifactKey: Guid(3f0b9d6d971ec4cd285cc9d9b8626e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models/Firetruck/traffic_cone.fbx using Guid(3f0b9d6d971ec4cd285cc9d9b8626e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be2804b4a32aa2cb6591e0c5197090f') in 0.060302 seconds 
+  Import took 0.064037 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.053319 seconds.
+  path: Assets/Wikitude/Samples/Models/Dinosaurs/Diplodocus/Cartoon_Diplodocus.FBX
+  artifactKey: Guid(cba8141d660034a4b8996ae628d828e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models/Dinosaurs/Diplodocus/Cartoon_Diplodocus.FBX using Guid(cba8141d660034a4b8996ae628d828e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a3711fa8755fdd540871f2b6d48df2') in 0.940689 seconds 
+  Import took 0.946542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/Wikitude/Samples/Models/Dinosaurs/Diplodocus
+  artifactKey: Guid(54eb2be4136244908b4a10e72b66e01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models/Dinosaurs/Diplodocus using Guid(54eb2be4136244908b4a10e72b66e01d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7121d856cc074f2aff2089f414b703e5') in 0.011126 seconds 
+  Import took 0.015132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Wikitude/Samples/Models/Dinosaurs/Diplodocus/Diplodocus_Diffuse.png
+  artifactKey: Guid(1c20fc4408e0c42b88dd765643101f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models/Dinosaurs/Diplodocus/Diplodocus_Diffuse.png using Guid(1c20fc4408e0c42b88dd765643101f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b39023808aa632047ac08ae69d5bfb0') in 0.078005 seconds 
+  Import took 0.082572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000376 seconds.
+  path: Assets/Wikitude/Samples/Models/Dinosaurs/Diplodocus/Diplodocus_Specular.png
+  artifactKey: Guid(047d2c6eaf6ff48a180649c17e8bcc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models/Dinosaurs/Diplodocus/Diplodocus_Specular.png using Guid(047d2c6eaf6ff48a180649c17e8bcc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697aaca9760bde79aec1e8b190a3c809') in 0.080662 seconds 
+  Import took 0.084803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000584 seconds.
+  path: Assets/Wikitude/Samples/Models/Dinosaurs/Diplodocus/Diplodocus_Normal.png
+  artifactKey: Guid(7fb10d8cc57664830a80fc85d12d7d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models/Dinosaurs/Diplodocus/Diplodocus_Normal.png using Guid(7fb10d8cc57664830a80fc85d12d7d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9944ed997feb6f15a6788daaf1d2e3ac') in 0.077591 seconds 
+  Import took 0.082119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.702944 seconds.
+  path: Assets/Wikitude/Samples/Models/Dinosaurs/Spinosaurus/Cartoon_Spinosaurus.FBX
+  artifactKey: Guid(ea673077d7f51408d95fc8268ed21589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models/Dinosaurs/Spinosaurus/Cartoon_Spinosaurus.FBX using Guid(ea673077d7f51408d95fc8268ed21589) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd3fe1d404bf1792961f5a799e1b7e21') in 0.561801 seconds 
+  Import took 0.569352 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000501 seconds.
+  path: Assets/Wikitude/Samples/Models/Dinosaurs/Spinosaurus/Spinosaur_Normal.png
+  artifactKey: Guid(a71e5777803c24be6ac176b13891b57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models/Dinosaurs/Spinosaurus/Spinosaur_Normal.png using Guid(a71e5777803c24be6ac176b13891b57d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd374a572c4c5cc65e7f3155278493d5e') in 0.084969 seconds 
+  Import took 0.089431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000518 seconds.
+  path: Assets/Wikitude/Samples/Models/Dinosaurs/Spinosaurus/Spinosaur_Diffuse.png
+  artifactKey: Guid(e8620b4d8624e405fbc2009224a7d07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models/Dinosaurs/Spinosaurus/Spinosaur_Diffuse.png using Guid(e8620b4d8624e405fbc2009224a7d07e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a8c7ea3b5127d660becb90336e2c53') in 0.130583 seconds 
+  Import took 0.179483 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.924784 seconds.
+  path: Assets/Wikitude/Samples/Models/Dinosaurs/Triceratops/Cartoon_Triceratops.FBX
+  artifactKey: Guid(a3d9a45510b3f48219898a0fd116056a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models/Dinosaurs/Triceratops/Cartoon_Triceratops.FBX using Guid(a3d9a45510b3f48219898a0fd116056a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3730950132532a31aa569967eb22baf') in 0.343487 seconds 
+  Import took 0.349427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000530 seconds.
+  path: Assets/Wikitude/Samples/Models/Dinosaurs/Triceratops/Triceratops_specular.png
+  artifactKey: Guid(836b73e56a96a4d9abed99a7f7ad8464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models/Dinosaurs/Triceratops/Triceratops_specular.png using Guid(836b73e56a96a4d9abed99a7f7ad8464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a781f71a54d71bad98926fa85e5b2ebd') in 0.087194 seconds 
+  Import took 0.091599 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Wikitude/Samples/Models/Dinosaurs/Triceratops/Triceratops_normal.png
+  artifactKey: Guid(165052f1f87af4cb28f06ff5fe278157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models/Dinosaurs/Triceratops/Triceratops_normal.png using Guid(165052f1f87af4cb28f06ff5fe278157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfeb7153e31b8dc4771e0482932c5a81') in 0.083575 seconds 
+  Import took 0.087372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/Wikitude/Samples/Models/Dinosaurs/Triceratops/Triceratops_diffuse.png
+  artifactKey: Guid(b7e95507524b04406a7388a842905a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models/Dinosaurs/Triceratops/Triceratops_diffuse.png using Guid(b7e95507524b04406a7388a842905a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e1357c3f8716d7d5c5dedd59b43abc5') in 0.077417 seconds 
+  Import took 0.081240 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.290611 seconds.
+  path: Assets/Wikitude/Samples/Models/Dinosaurs/Tyrannosaurus/Cartoon_Tyrannosaurus.FBX
+  artifactKey: Guid(4337379ba51a14a489aa9cb5dbaadc16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models/Dinosaurs/Tyrannosaurus/Cartoon_Tyrannosaurus.FBX using Guid(4337379ba51a14a489aa9cb5dbaadc16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '331cdc6486b7f6b6cc2970b47ca30d27') in 0.344984 seconds 
+  Import took 0.351899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Wikitude/Samples/Models/Dinosaurs/Tyrannosaurus/Tyrannosaurus_Diffuse.png
+  artifactKey: Guid(0131b9d0e4c5c45f980c2084b245b55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models/Dinosaurs/Tyrannosaurus/Tyrannosaurus_Diffuse.png using Guid(0131b9d0e4c5c45f980c2084b245b55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f432b8350ad76002b8dd305081db6510') in 0.092299 seconds 
+  Import took 0.097129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/Wikitude/Samples/Models/Dinosaurs/Tyrannosaurus/Tyrannosaurus_Normal.png
+  artifactKey: Guid(b9a764ca232574350a4bca984f144e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Wikitude/Samples/Models/Dinosaurs/Tyrannosaurus/Tyrannosaurus_Normal.png using Guid(b9a764ca232574350a4bca984f144e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90648e152aa40da2c73ebe8167202fe9') in 0.091208 seconds 
+  Import took 0.095384 seconds .
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 14.05 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+Unloading 33 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 51.4 MB.
+System memory in use after: 51.6 MB.
+
+Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 2798.
+Total: 5.858900 ms (FindLiveObjects: 0.217500 ms CreateObjectMapping: 0.160900 ms MarkObjects: 5.398600 ms  DeleteObjects: 0.080100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
