@@ -3,4 +3,4 @@
  
  
  ## Preview
- <img alt="Slika korisničkog sučelja" src="https://github.com/TheJakov/DinoAR/blob/main/Readme/dino_ar_20MB.gif">
+ <img alt="Slika korisničkog sučelja" src="https://github.com/TheJakov/DinoAR/blob/main/Readme/dino_ar_20MB.gif" width="300" height="612">
